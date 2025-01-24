@@ -43,7 +43,7 @@ export const Header = () => {
       </div>
       </div>
 
-      <div 
+      {/* <div 
         className={`absolute md:hidden top-[4.5rem] left-0 w-full backdrop-blur bg-slate-950/60 flex flex-col
         items-center gap-6 font-semibold text-lg transform transition-transform py-4 pb-10
         ${!isMenuopen ? "translate-x-full" : "translate-x-0"}`}
@@ -65,7 +65,7 @@ export const Header = () => {
             onClick={() => setIsMenuopen(!isMenuopen)} 
             className='text-white/70 hover:text-white transition' href="#">Contacto</a>
 
-        </div>
+        </div> */}
     </div>
 
   </header>
