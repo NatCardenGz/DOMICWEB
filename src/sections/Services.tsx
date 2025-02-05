@@ -16,9 +16,9 @@ import {
 import Link from "next/link";
 import Image from "next/image";
 
-import cameraSecu from '@/assets/services/camera-segurdad.jpg';
-import domoHouse from '@/assets/services/domotic-house.jpg';
-import ventaCam from '@/assets/services/venta-camaras.jpg';
+import cameraSecu from '@/assets/services/1-dom.png';
+import domoHouse from '@/assets/services/3-dom.jpg';
+import ventaCam from '@/assets/services/smarthome.jpg';
 import { WorkSlidersBtns } from "@/components/ui/WorkSlidersBtns";
 
 

@@ -11,9 +11,10 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import Image from 'next/image';
 
-import cameraSecu from '@/assets/services/camera-segurdad.jpg';
-import domoHouse from '@/assets/services/domotic-house.jpg';
-import ventaCam from '@/assets/services/venta-camaras.jpg';
+import cameraSecu from '@/assets/services/1-dom.png';
+import domoHouse from '@/assets/services/2-dom.jpg';
+import ventaCam from '@/assets/services/3-dom.jpg';
+import camer from '@/assets/services/4-dom.png';
 
 
 
@@ -33,7 +34,7 @@ const productos = [
         title: 'Speaker Parlante'
     },
     {
-        image: cameraSecu,
+        image: camer,
         title: 'Camara de Seguridad'
     },
 
@@ -52,7 +53,7 @@ const productos = [
     },
 
     {
-        image: domoHouse,
+        image: camer,
         title: 'Amazon Parlante'
     },
 
@@ -116,7 +117,7 @@ export const Products = () => {
         <h3 className="text-lg font-semibold text-gray-800">{producto.title}</h3>
         <p className="text-gray-600 text-sm my-2">{producto.title}</p>
         <button className="mt-4 px-4 py-2 bg-blue-500 text-white text-sm font-medium rounded-md hover:bg-blue-600 transition">
-      buton
+      Ver más
         </button>
       </div>
     </div>
